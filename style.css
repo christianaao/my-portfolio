@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 /* Ubuntu: CSS classes
 
 .ubuntu-light {
@@ -49,7 +48,6 @@
   font-weight: 700;
   font-style: italic;
 } */
-
 /* Montserrat: CSS class for a variable style
 
 // <uniquifier>: Use a unique and descriptive class name
@@ -61,101 +59,106 @@
   font-weight: <weight>;
   font-style: normal;
 } */
-
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
+
 * {
-    border-bottom: 0px;
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 450px;
-    font-style: normal;
-    background-color: #1A1423;
-    color: #d7c0ee;
+  border-bottom: 0px;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 450px;
+  font-style: normal;
+  background-color: #1A1423;
+  color: #d7c0ee;
 }
 
 .navbar ul {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    /* width: 200px; */
-    overflow: hidden;
-    background-color: #372549;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  /* width: 200px; */
+  overflow: hidden;
+  background-color: #372549;
 }
 
 .navbar li {
-    float: left;
+  float: left;
 }
 
 .navbar li a {
-    display: block;
-    background-color: #372549;
-    color: lightblue;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: block;
+  background-color: #372549;
+  color: lightblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-.navbar li a:hover{
-    background-color: #492e64;
+.navbar li a:hover {
+  background-color: #492e64;
 }
 
-.sites a{
-    font-weight: 600;
-    padding: 5px;
-    margin: 10px;
-    text-decoration:none;
+.sites a {
+  font-weight: 600;
+  padding: 5px;
+  margin: 10px;
+  text-decoration: none;
 }
 
-#logo img{
-    width: 205px
+#logo img {
+  width: 205px;
 }
 
 #socials li {
-    display: flex;
-    justify-content: center;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
+
 ol {
-    margin: 20px;
-    padding: 10px;
+  margin: 20px;
+  padding: 10px;
 }
+
 li {
-    /* margin: 10px;
-    padding: 5px; */
-    color: #d7c0ee;
-    line-height: 1.5;
+  /* margin: 10px;
+  padding: 5px; */
+  color: #d7c0ee;
+  line-height: 1.5;
 }
+
 h1 {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 40px;
-    margin: 10px;
-    padding: 5px;
-    color: lightskyblue;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  margin: 10px;
+  padding: 5px;
+  color: lightskyblue;
 }
 
 h2 {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 24px;
-    margin: 10px;
-    padding: 5px;
-    color: lightskyblue;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px;
+  margin: 10px;
+  padding: 5px;
+  color: lightskyblue;
 }
 
 p {
-    margin: 10px;
-    padding: 5px;
-    color: #d7c0ee;
+  margin: 10px;
+  padding: 5px;
+  color: #d7c0ee;
 }
 
 /* footer {
     background-color: #372549;
 } */
+
+/*# sourceMappingURL=style.css.map */

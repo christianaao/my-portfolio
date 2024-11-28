@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 /* Ubuntu: CSS classes
 
 .ubuntu-light {
@@ -67,10 +67,10 @@ html {
   border-bottom: 0px;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito", serif;
+  font-size: 1em;
   font-optical-sizing: auto;
-  font-weight: 450px;
+  font-weight: 750;
   font-style: normal;
   background-color: #1A1423;
   color: #d7c0ee;
@@ -138,16 +138,6 @@ h1 {
   font-size: 40px;
   margin: 10px;
   padding: 5px;
-  color: linear-gradient(to right, black, white);
-  /* GRADIENT TESTING */
-  /* color: lightskyblue; */
-  /* background: linear-gradient(to right, #2D00F7, #6A00F4, #8900F4, #A100F2, #B100E8, #BC00DD, #D100D1, #DB00B6, #E500A4, #F20089); */
-  /* background: linear-gradient(to right, #10002B 40%, #240046, #3C096C, #5A189A, #7B2CBf, #9D4EDD, #C77DFF, #E0AAFF); */
-  /* background: linear-gradient(to right, #10002B 40%, #E0AAFF); */
-  /* background: linear-gradient(45deg, #10002B 0 50%, #E0AAFF 50% 100%); */
-  /* background: linear-gradient(to left, #10002B, #10002B 50%, #E0AAFF 75%, #10002B 75%); */
-
-  /* border: 2px, dashed, #fff; */
 }
 
 h2 {
